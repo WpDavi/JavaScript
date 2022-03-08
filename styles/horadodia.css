@@ -1,0 +1,36 @@
+body {
+  background-color: rgb(88, 88, 88);
+  text-align: center;
+}
+h1 {
+  color: white;
+  text-shadow: 1px 1px 2px black;
+  margin-top: 10px;
+  font-size: 50pt;
+}
+section {
+  width: 500px;
+  height: 550px;
+  background: white;
+  text-align: center;
+  margin: auto;
+  border-radius: 30px;
+  box-shadow: 3px 5px 5px rgba(0, 0, 0, 0.39);
+}
+footer {
+  color: white;
+  font-size: 19px;
+  margin-top: 20px;
+}
+.imagen {
+  height: 400px;
+  margin-top: 20px;
+  border-radius: 500px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.541);
+}
+.hora {  
+  font-size: 25pt;
+  padding: 20px;
+  text-shadow: 2px 2px 2px white;
+  
+}

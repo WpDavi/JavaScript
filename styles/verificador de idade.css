@@ -1,0 +1,36 @@
+body {
+  background: rgb(151, 151, 255);
+}
+h1 {
+  text-align: center;
+}
+section {
+  
+  background: white;
+  border-radius: 10px;
+  padding: 10px;
+  font-size: 14pt;
+  width: 600px;
+  margin: auto;
+  box-shadow: 5px 5px 15px black;
+    
+}
+
+footer {
+  text-align: center;
+  margin-top: 20px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 15pt;
+}
+.res {
+  margin-top: 20px;
+  text-align: center;
+}
+img {
+  height: 300px;
+  margin-top: 30px;
+  margin: auto;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+  border-radius: 200px;
+}
+

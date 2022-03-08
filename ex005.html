@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    body {
+      background: rgb(120, 120, 255);
+      color: white;
+      font: 18pt
+    }
+  </style>
+</head>
+<body id="corpo">
+  <h1>Aprendendo o Dom</h1>
+  <h2>tentando modificar com o dom</h2>
+  <p id="p1">mexendo com o dom</p>
+  <p id="p2">tambem mexendo com o dom</p>
+  <script>
+    var p1 = document.getElementById('p1')
+    var p2 = document.getElementById('p2')
+    var corpo = document.getElementById('corpo')
+    corpo.style.background = 'blue'    
+    p1.innerHTML = 'para trocar algo da tela e assim'
+    document.write('para escrever na tela e assim')
+  </script>
+  
+</body>
+</html>

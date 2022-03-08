@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>  
+  <h1>Consulta de votação</h1>
+  Sua idade<input type="number" id="idade">
+  <input type="button" value="Caulcular" onclick="clicou()">
+  <div id="res"></div>
+  <p id="te"></p>
+  <script>
+    function clicou () {
+    var idaade = document.getElementById('idade')
+    var res = document.getElementById('res')     
+    var idade = Number(idaade.value)
+    
+
+    
+    if (idade <= 15) {
+      res.innerHTML = `voce tem ${idade} e <strong>não pode votar</strong>`
+    } else if (idade < 19 || idade >= 65 ) {
+      res.innerHTML = `voce tem ${idade} e <strong>voto opcional</strong>`  
+    }else {
+      res.innerHTML = `voce tem ${idade} e <strong>vc e obrigado a votar</strong>`
+    }
+    
+    
+
+  }    
+  </script>
+  
+</body>
+</html>

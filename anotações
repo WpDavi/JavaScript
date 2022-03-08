@@ -1,0 +1,29 @@
+{
+ordem de procedencia == oque vai calcular primeiro
+()
+** potencia
+* / %
++ -
+}
+
+
+
+{
+Logicas
+! negação == NAO
+&& conjunção == E
+|| Disjunção  ==  OU
+}
+
+
+{
+  EVENTOS DOM DO MAUSE
+  ex006 tem o resumo   
+
+  'mouseenter' QUANDO O MAUSE ENTRA NA DIV
+  'mousemove' QUANDO O MAUSE SE MOVE NA DIV
+  'mousedown' QUANDO APERTA O BOTAO DO MAUSE NA DIV
+  'mouseup' QUANDO SOLTA O BOTAO DO MAUSE
+  'click' QUANDO APERTA E SOLTA RAPIDO O MAUS
+  'mouseout' QUANDO TIRA  MAUSE DA DIV
+}

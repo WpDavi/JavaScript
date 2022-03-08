@@ -1,0 +1,26 @@
+body {
+  background: rgb(64, 64, 255);
+}
+p {
+  font-size: 13pt;
+}
+div {
+  margin-top: 10px;
+}
+h1 {
+  text-align: center;
+  color: white;
+  text-shadow: 2px 3px 5px rgba(0, 0, 0, 0.596);
+  font-size: 35pt;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+section {
+  width: 500px;
+  background: white;
+  border-radius: 10px;
+  padding: 10px;
+  align-items: center;
+  margin: auto;
+  box-shadow: 2px 3px 5px rgba(0, 0, 0, 0.596);
+}

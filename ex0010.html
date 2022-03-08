@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <h1>Quadro de multas</h1>
+  <input type="number" id="vel">
+  <input type="button" value="Caulcular" onclick="calcular()"> 
+  <div id="res"></div>
+  
+  <script>
+    function calcular () {
+      var veel = document.getElementById('vel')
+      var res = document.getElementById('res') 
+      var vel = Number(veel.value)      
+      res.innerHTML = `<p>Sua velocidade é ${vel}</p>`
+      if (vel > 60) {
+        res.innerHTML += `<p>Vocé foi Multado</p> `
+      }
+      res.innerHTML += `<p>Dirija sempre com cinto de Segurança</p>`
+      
+    }
+  </script>
+</body>
+</html>
